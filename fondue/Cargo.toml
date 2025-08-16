@@ -1,6 +1,6 @@
 [package]
 name = "fondue"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Blake Park <blake.r.park@gmail.com>"]
 description = "A Rust caching library with TTL, LRU, and namespace support."
