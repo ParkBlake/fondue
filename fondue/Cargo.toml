@@ -9,7 +9,6 @@ repository = "https://github.com/ParkBlake/fondue"
 documentation = "https://docs.rs/fondue"
 readme = "../README.md"
 keywords = ["cache", "caching", "ttl", "lru", "concurrency", ]
-categories = ["cache"]
 
 [dependencies]
 dashmap = "5.5"
