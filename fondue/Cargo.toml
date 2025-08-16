@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/ParkBlake/fondue"
 documentation = "https://docs.rs/fondue"
 readme = "../README.md"
-keywords = ["cache", "caching", "ttl", "lru", "rust", "concurrency", "dashmap"]
+keywords = ["cache", "caching", "ttl", "lru", "concurrency", ]
 categories = ["cache"]
 
 [dependencies]
