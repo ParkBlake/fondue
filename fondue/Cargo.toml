@@ -1,0 +1,21 @@
+[package]
+name = "fondue"
+version = "0.1.0"
+edition = "2021"
+authors = ["Blake Park <blake.r.park@gmail.com>"]
+description = "A Rust caching library with TTL, LRU, and namespace support."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ParkBlake/fondue"
+documentation = "https://docs.rs/fondue"
+readme = "README.md"
+keywords = ["cache", "caching", "ttl", "lru", "rust", "concurrency", "dashmap"]
+categories = ["cache"]
+
+[dependencies]
+dashmap = "5.5"
+thiserror = "1.0"
+tokio = { version = "1.0", features = ["time"], optional = true }
+
+[features]
+default = []
+async = ["tokio"]
